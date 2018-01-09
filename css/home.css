@@ -1,0 +1,70 @@
+header{
+    position: relative;
+    margin:0 auto;
+    width: 940px;
+}
+
+#sacola{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10.75em;
+    padding-right: 2em;
+    background: url("../mirror-fashion/img/sacola.png");
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+    background-position-x: right;
+}
+li{
+    display: inline;
+    margin-left: 1em;
+}
+a{
+    display: block;
+    text-decoration: none;
+    border-bottom:1px solid #ccc;
+}
+#menu{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+#Principal{
+
+    position: relative;
+    margin:0 auto;
+    width: 940px;
+}
+
+#departamentos{
+    position: absolute;
+    margin-top: 10px;
+    width: 230px;
+    margin-right: auto;
+    border-bottom: 1em solid #ccc;
+}
+#imgPrincipal{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+#busca{
+    
+    padding-left: 5px;
+    background-color: #ccc;
+    width: 230px;
+    height: 70px;
+}
+input{
+
+    border-radius: 10px;
+    display: inline;
+}
+
+h2{
+    width: 230px;
+    background-color: #ccc;
+}
+

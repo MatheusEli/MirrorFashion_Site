@@ -1,0 +1,38 @@
+	h1{background: url("../mirror-fashion/img/sobre-background.jpg")}
+
+	#CompreJá{text-align: center}
+
+	#LinkCompre{
+
+		text-decoration: none;
+	}
+
+	body{
+		width: 940px;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: Helvetica;}
+
+	figure{background: lightgrey; 
+		text-align: center;
+		border:1px solid grey;
+		padding: 15px;}
+
+	figure{background: lightgrey; 
+			text-align: center;
+			border:1px solid grey;
+			padding: 15px;
+			}
+
+	#centro{width:550px;
+			margin:0 auto}
+
+	#familia{float:right;
+			width:300px;
+			margin-right: 0;}
+
+	h2{border-bottom:3px solid black}
+
+
+	p{
+	text-indent: 10px}
