@@ -10,7 +10,7 @@ header{
     right: 0;
     width: 10.75em;
     padding-right: 2em;
-    background: url("../mirror-fashion/img/sacola.png");
+    background: url("../img/sacola.png");
     background-repeat: no-repeat;
     background-size: 2em 2em;
     background-position-x: right;
@@ -19,11 +19,7 @@ li{
     display: inline;
     margin-left: 1em;
 }
-a{
-    display: block;
-    text-decoration: none;
-    border-bottom:1px solid #ccc;
-}
+
 #menu{
     position: absolute;
     right: 0;
