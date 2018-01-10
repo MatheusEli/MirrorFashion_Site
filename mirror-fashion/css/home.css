@@ -1,21 +1,37 @@
-header{
+.container{
     position: relative;
     margin:0 auto;
     width: 940px;
 }
 
+.destaque{
+
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.produtos{
+
+    clear: right;
+}
+
+.produtos img{
+
+    width: 100px;
+}
 #sacola{
     position: absolute;
     top: 0;
     right: 0;
     width: 10.75em;
     padding-right: 2em;
-    background: url("../img/sacola.png");
+    background: url("../mirror-fashion/img/sacola.png");
     background-repeat: no-repeat;
     background-size: 2em 2em;
     background-position-x: right;
 }
-li{
+.item-cabecalho{
     display: inline;
     margin-left: 1em;
 }
@@ -26,26 +42,28 @@ li{
     bottom: 0;
 }
 
-
-#Principal{
-
-    position: relative;
-    margin:0 auto;
-    width: 940px;
-}
-
 #departamentos{
-    position: absolute;
+    
+    
+    /*position: absolute;*/
+    
     margin-top: 10px;
     width: 230px;
     margin-right: auto;
     border-bottom: 1em solid #ccc;
+    
 }
-#imgPrincipal{
+
+.img-destaque{
+    
+    float: right;
+
+    /*
     position: absolute;
     right: 0;
-    top:0;
+    top:0;*/
 }
+
 #busca{
     
     padding-left: 5px;
@@ -59,8 +77,77 @@ input{
     display: inline;
 }
 
-h2{
+#departamentos h2{
     width: 230px;
     background-color: #ccc;
 }
 
+#departamentos a{
+
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom:1px solid #ccc;
+}
+
+
+.vitrine {
+
+    margin-top: 0.3em;
+    display: inline-block;
+    width: 45%;
+    padding: 1.4em;
+    background-color: #ccc;
+}
+
+.vitrine figure{
+
+    display: inline-block;
+    padding: 1em;
+}
+
+.vitrine2{
+
+    background-color: blue;
+
+} 
+
+.rodape{
+    padding: 0.3em;
+    background: url("../mirror-fashion/img/fundo-rodape.png");
+    
+}
+
+.social{
+
+    position: absolute;
+    right: 0;
+    top:0;
+
+}
+
+.link-social{
+
+    display: inline-block;
+    background: red;
+    color: transparent;
+    text-indent: -9999999px;
+    width: 32px;
+    height: 32px;
+}
+
+[href *= "face"]{
+
+    background: url("../mirror-fashion/img/facebook.png");
+}
+
+
+[href *= "twitter"]{
+
+    background: url("../mirror-fashion/img/twitter.png");
+}
+
+[href *= "google"]{
+
+    background: url("../mirror-fashion/img/googleplus.png");
+}
