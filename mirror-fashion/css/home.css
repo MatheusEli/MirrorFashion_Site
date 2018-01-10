@@ -26,7 +26,7 @@
     right: 0;
     width: 10.75em;
     padding-right: 2em;
-    background: url("../mirror-fashion/img/sacola.png");
+    background: url("../img/sacola.png");
     background-repeat: no-repeat;
     background-size: 2em 2em;
     background-position-x: right;
@@ -114,7 +114,7 @@ input{
 
 .rodape{
     padding: 0.3em;
-    background: url("../mirror-fashion/img/fundo-rodape.png");
+    background: url("../img/fundo-rodape.png");
     
 }
 
@@ -138,16 +138,16 @@ input{
 
 [href *= "face"]{
 
-    background: url("../mirror-fashion/img/facebook.png");
+    background: url("../img/facebook.png");
 }
 
 
 [href *= "twitter"]{
 
-    background: url("../mirror-fashion/img/twitter.png");
+    background: url("../img/twitter.png");
 }
 
 [href *= "google"]{
 
-    background: url("../mirror-fashion/img/googleplus.png");
+    background: url("../img/googleplus.png");
 }
