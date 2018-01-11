@@ -1,18 +1,18 @@
 .container{
+
     position: relative;
     margin:0 auto;
     width: 940px;
 }
 
 .destaque{
-
+    
     margin-top: 10px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .produtos{
-
     clear: right;
 }
 
@@ -20,33 +20,37 @@
 
     width: 100px;
 }
-#sacola{
+.sacola{
     position: absolute;
     top: 0;
     right: 0;
     width: 10.75em;
     padding-right: 2em;
-    background: url("../img/sacola.png");
+    background: url("../mirror-fashion/img/sacola.png");
     background-repeat: no-repeat;
     background-size: 2em 2em;
     background-position-x: right;
 }
+
+
+
 .item-cabecalho{
     display: inline;
     margin-left: 1em;
 }
 
-#menu{
+.menu{
+
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-#departamentos{
+.departamentos{
     
     
     /*position: absolute;*/
-    
+    column-count: 1;
     margin-top: 10px;
     width: 230px;
     margin-right: auto;
@@ -57,7 +61,6 @@
 .img-destaque{
     
     float: right;
-
     /*
     position: absolute;
     right: 0;
@@ -77,12 +80,11 @@ input{
     display: inline;
 }
 
-#departamentos h2{
-    width: 230px;
+.departamentos h2{
     background-color: #ccc;
 }
 
-#departamentos a{
+.departamentos a{
 
     display: block;
     text-decoration: none;
@@ -97,7 +99,12 @@ input{
     display: inline-block;
     width: 45%;
     padding: 1.4em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     background-color: #ccc;
+
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
 }
 
 .vitrine figure{
@@ -114,13 +121,13 @@ input{
 
 .rodape{
     padding: 0.3em;
-    background: url("../img/fundo-rodape.png");
+    background: url("../mirror-fashion/img/fundo-rodape.png");
     
 }
 
 .social{
 
-    position: absolute;
+    float: right;
     right: 0;
     top:0;
 
@@ -138,16 +145,88 @@ input{
 
 [href *= "face"]{
 
-    background: url("../img/facebook.png");
+    background: url("../mirror-fashion/img/facebook.png");
 }
 
 
 [href *= "twitter"]{
 
-    background: url("../img/twitter.png");
+    background: url("../mirror-fashion/img/twitter.png");
 }
 
 [href *= "google"]{
 
-    background: url("../img/googleplus.png");
+    background: url("../mirror-fashion/img/googleplus.png");
 }
+
+@media(max-width: 940px){
+    h1{
+        text-align: center;
+    }
+    
+    .img-destaque{
+        max-width: 100%;
+        float: none;
+    }
+
+    #img{
+
+        width: 100%;
+    }
+    
+    .menu{
+
+        position: static;
+        text-align: center;
+    }
+    .sacola{
+
+        display: none;
+    }
+    .container{
+        
+        width: 90%;
+    }
+
+    h1{
+
+        text-align: center;
+    }
+
+    .vitrine{
+
+        width: 49.4%;
+        box-sizing: border-box;
+
+    }
+
+    .departamentos{
+        
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #busca{
+
+        width: 100%;
+    }
+}
+
+@media(min-width: 496px) and (max-width: 940px){
+
+    .departamentos ul{
+
+        column-count: 2;
+    }
+}
+
+
+@media(min-width: 793px) and (max-width: 940px){
+
+    .vitrine{
+
+        width: 45%;
+    }
+}
+
