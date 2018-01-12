@@ -96,8 +96,11 @@ input{
 .vitrine {
 
     margin-top: 0.3em;
+    margin-bottom: 0.3em;
     display: inline-block;
-    width: 45%;
+    width: 49.78%;
+    text-align: center;
+    vertical-align: top;
     padding: 1.4em;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -109,12 +112,35 @@ input{
 
 .vitrine figure{
 
+
+    transform: scale(1);
+    transition: transform 0.5s;
     display: inline-block;
-    padding: 1em;
+    padding: 0.5em;
 }
 
+
+.vitrine figure:hover{
+
+    
+    transform: scale(2) rotate(45deg);
+    transition: transform 0.5s;
+    
+}
+
+
+.vitrine figure:nth-of-type(n+7) {
+
+    display: none;
+}
+
+.expandido figure:nth-of-type(n+7){
+    
+    display: inline-block;
+} 
 .vitrine2{
 
+    
     background-color: blue;
 
 } 
@@ -157,6 +183,18 @@ input{
 [href *= "google"]{
 
     background: url("../mirror-fashion/img/googleplus.png");
+}
+
+.submenu{
+
+    height: 0;
+    overflow: hidden;
+
+}
+li.selecionado .submenu,
+li:hover .submenu{
+
+    height: auto;
 }
 
 @media(max-width: 940px){
