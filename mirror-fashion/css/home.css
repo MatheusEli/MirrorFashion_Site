@@ -26,7 +26,7 @@
     right: 0;
     width: 10.75em;
     padding-right: 2em;
-    background: url("../mirror-fashion/img/sacola.png");
+    background: url("../img/sacola.png");
     background-repeat: no-repeat;
     background-size: 2em 2em;
     background-position-x: right;
@@ -91,8 +91,6 @@ input{
     color: black;
     border-bottom:1px solid #ccc;
 }
-
-
 .vitrine {
 
     margin-top: 0.3em;
@@ -110,6 +108,19 @@ input{
     box-shadow: 1px 1px 4px #999;
 }
 
+.vitrine h2{
+    
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.vitrine figcaption{
+
+    
+}
 .vitrine figure{
 
 
@@ -123,7 +134,7 @@ input{
 .vitrine figure:hover{
 
     
-    transform: scale(2) rotate(45deg);
+    transform: scale(1.2);
     transition: transform 0.5s;
     
 }
@@ -137,17 +148,11 @@ input{
 .expandido figure:nth-of-type(n+7){
     
     display: inline-block;
-} 
-.vitrine2{
-
-    
-    background-color: blue;
-
-} 
+}
 
 .rodape{
     padding: 0.3em;
-    background: url("../mirror-fashion/img/fundo-rodape.png");
+    background: url("../img/fundo-rodape.png");
     
 }
 
@@ -171,18 +176,18 @@ input{
 
 [href *= "face"]{
 
-    background: url("../mirror-fashion/img/facebook.png");
+    background: url("../img/facebook.png");
 }
 
 
 [href *= "twitter"]{
 
-    background: url("../mirror-fashion/img/twitter.png");
+    background: url("../img/twitter.png");
 }
 
 [href *= "google"]{
 
-    background: url("../mirror-fashion/img/googleplus.png");
+    background: url("../img/googleplus.png");
 }
 
 .submenu{

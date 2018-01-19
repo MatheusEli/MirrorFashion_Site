@@ -1,4 +1,4 @@
-	h1{background: url("../mirror-fashion/img/sobre-background.jpg")}
+	h1{background: url("../img/sobre-background.jpg")}
 
 	#CompreJá{text-align: center}
 
@@ -36,3 +36,44 @@
 
 	p{
 	text-indent: 10px}
+
+	.rodape{
+		padding: 0.3em;
+		background: url("../img/fundo-rodape.png");
+		
+	}
+	
+	.social{
+	
+		float: right;
+		right: 0;
+		top:0;
+	
+	}
+	
+	.link-social{
+	
+		display: inline-block;
+		background: red;
+		color: transparent;
+		text-indent: -9999999px;
+		width: 32px;
+		height: 32px;
+	}
+	
+	[href *= "face"]{
+	
+		background: url("../img/facebook.png");
+	}
+	
+	
+	[href *= "twitter"]{
+	
+		background: url("../img/twitter.png");
+	}
+	
+	[href = "http://google.com"]{
+	
+		background: url("../img/googleplus.png");
+	}
+	
