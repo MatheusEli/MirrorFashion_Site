@@ -1,79 +1,128 @@
-	h1{background: url("../img/sobre-background.jpg")}
+header{
 
-	#CompreJá{text-align: center}
+    margin-top: auto;
+}
+#titulo{
+    padding: 10px;
+    background-image: url("../img/sobre-background.jpg");
+}
+#Compreja{
+    background-image: url("../img/sobre-background.jpg");
+}
+#acompre{
 
-	#LinkCompre{
+    text-align: center;
+    text-decoration: none;
+}
+h3{
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+#centro-distribuicao{
+    
+    width: 550px;
+    padding: 15px;
+    margin: 30px;
+    margin: 0 auto;
 
-		text-decoration: none;
-	}
+    border: 2px solid #ccc;
+    background: #F2EDED;
+    text-align: center;
+}
+#familia-pelho{
+    
+    width: 300px;
+    padding: 15px;
+    float: right;
+    margin: 0 0 10px 10px;
+    
 
-	body{
-		width: 940px;
-		margin-left: auto;
-		margin-right: auto;
-		font-family: Helvetica;}
+    border: 2px solid #ccc;
+    background: #F2EDED;
+    text-align: center;
+}
 
-	figure{background: lightgrey; 
-		text-align: center;
-		border:1px solid grey;
-		padding: 15px;}
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+}
+figcaption{
 
-	figure{background: lightgrey; 
-			text-align: center;
-			border:1px solid grey;
-			padding: 15px;
-			}
+    margin-top: 10px;
+    font-style: italic;
+}
 
-	#centro{width:550px;
-			margin:0 auto}
+#rodape{
 
-	#familia{float:right;
-			width:300px;
-			margin-right: 0;}
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
 
-	h2{border-bottom:3px solid black}
+#rodape img{
 
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+body{
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
 
-	p{
-	text-indent: 10px}
+    font-family: "Arial","Helvetica",sans-serif;
+}
+.container{
 
-	.rodape{
-		padding: 0.3em;
-		background: url("../img/fundo-rodape.png");
-		
-	}
-	
-	.social{
-	
-		float: right;
-		right: 0;
-		top:0;
-	
-	}
-	
-	.link-social{
-	
-		display: inline-block;
-		background: red;
-		color: transparent;
-		text-indent: -9999999px;
-		width: 32px;
-		height: 32px;
-	}
-	
-	[href *= "face"]{
-	
-		background: url("../img/facebook.png");
-	}
-	
-	
-	[href *= "twitter"]{
-	
-		background: url("../img/twitter.png");
-	}
-	
-	[href = "http://google.com"]{
-	
-		background: url("../img/googleplus.png");
-	}
-	
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sacola{
+
+    background: url(../img/sacola.png) no-repeat top right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    margin-top: 0;
+}
+.menu-opcoes{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu-opcoes ul{
+    font-size: 15px;
+}
+.menu-opcoes a{
+    color: #003366;
+}
+#lista-menu li{
+
+    display: inline;
+    margin-left: 20px;
+}
+p:first-letter{
+
+    font-weight: bold;
+}
+h1+p{
+
+    text-indent: 0;
+}
+p:first-line{
+
+    font-variant: small-caps;
+}
+body{
+
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
