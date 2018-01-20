@@ -1,0 +1,136 @@
+header{
+
+    margin-top: auto;
+}
+#titulo{
+    padding: 10px;
+    background-image: url("../img/sobre-background.jpg");
+}
+#Compreja{
+    background-image: url("../img/sobre-background.jpg");
+}
+#acompre{
+
+    text-align: center;
+    text-decoration: none;
+}
+h3{
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+#centro-distribuicao{
+    
+    width: 550px;
+    padding: 15px;
+    margin: 30px;
+    margin: 0 auto;
+
+    border: 2px solid #ccc;
+    background: #F2EDED;
+    text-align: center;
+}
+#familia-pelho{
+    
+    width: 300px;
+    padding: 15px;
+    float: right;
+    margin: 0 0 10px 10px;
+    
+
+    border: 2px solid #ccc;
+    background: #F2EDED;
+    text-align: center;
+}
+
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+}
+figcaption{
+
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#rodape{
+
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img{
+
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+body{
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+
+    font-family: "Arial","Helvetica",sans-serif;
+}
+.container{
+
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sacola{
+
+    background: url(../img/sacola.png) no-repeat top right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    margin-top: 0;
+}
+.menu-opcoes{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu-opcoes ul{
+    font-size: 15px;
+}
+.menu-opcoes a{
+    color: #003366;
+}
+.menu-opcoes a:hover{
+    color: #007dc6;
+}
+
+.menu-opcoes a:active{
+    color: #867dc6;
+}
+
+#lista-menu li{
+
+    display: inline;
+    margin-left: 20px;
+}
+p:first-letter{
+
+    font-weight: bold;
+}
+h1+p{
+
+    text-indent: 0;
+}
+:not(p) + p:first-line{
+
+    font-variant: small-caps;
+}
+body{
+
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

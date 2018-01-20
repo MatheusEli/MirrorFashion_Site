@@ -1,226 +1,275 @@
 .container{
 
     position: relative;
-    margin: 0 auto;
+    margin:0 auto;
     width: 940px;
 }
 
-.sacola{
+.destaque{
+    
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
-    background: url(../img/sacola.png) no-repeat top right;
+.produtos{
+    clear: right;
+}
+
+.produtos img{
+
+    width: 100px;
+}
+.sacola{
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 14px;
-    padding-right: 35px;
-    text-align: right;
-    width: 140px;
-    padding-top: 8px;
+    width: 10.75em;
+    padding-right: 2em;
+    background: url("../img/sacola.png");
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+    background-position-x: right;
 }
-.menu-opcoes{
+
+
+
+.item-cabecalho{
+    display: inline;
+    margin-left: 1em;
+}
+
+.menu{
 
     position: absolute;
-    bottom: 0;
     right: 0;
-}
-.menu-opcoes ul{
-    font-size: 15px;
-}
-.menu-opcoes a{
-    color: #003366;
+    bottom: 0;
 }
 
-.menu-opcoes a:hover{
-    color: #007dc6;
-}
-
-.menu-opcoes a:active{
-    color: #867dc6;
-}
-
-.menu-departamentos li ul{
-
-    display: none;
-}
-.menu-departamentos li:hover ul{
-
-    display: block;
-}
-.menu-departamentos ul ul li{
-
-    background-color: #dcdcdc;
-}
-.menu-departamentos li li a:before{
-
-    content: '- ';
-}
-
-#menu li{
-
-    display: inline;
-    margin-left: 20px;
-}
-body{
-
-    color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-.busca,
 .departamentos{
-
-    float: left;
-    clear: left;
-    margin-right: 10px;
-    width: 230px;
-
-    text-transform: uppercase;
-    background-color: #dcdcdc;
-    font-weight: bold;
-
-}
-.busca{
-
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-.departamentos{
-
+    
+    
+    /*position: absolute;*/
+    column-count: 1;
     margin-top: 10px;
-    padding-bottom: 10px;
+    width: 230px;
+    margin-right: auto;
+    border-bottom: 1em solid #ccc;
+    
 }
-.busca h2,
-.busca form,
+
+.img-destaque{
+    
+    float: right;
+    /*
+    position: absolute;
+    right: 0;
+    top:0;*/
+}
+
+#busca{
+    
+    padding-left: 5px;
+    background-color: #ccc;
+    width: 230px;
+    height: 70px;
+}
+input{
+
+    border-radius: 10px;
+    display: inline;
+}
+
 .departamentos h2{
-
-    margin: 10px;
+    background-color: #ccc;
 }
 
-.departamentos li{
-
-    background-color: white;
-    margin-bottom: 1px;
-    padding: 5px 10px;
-}
 .departamentos a{
 
-    color: #333333;
+    display: block;
     text-decoration: none;
+    color: black;
+    border-bottom:1px solid #ccc;
 }
-.menu-departamentos{
+.vitrine {
 
-    text-decoration: none;
-}
-.busca input{
-
-    vertical-align: middle;
-}
-.busca input[type=search]{
-
-    width: 170px;
-}
-.destaque{
-
-    margin-top: 10px;
-}
-.painel{
-
-    width: 445px;
-    margin: 10px 0;
-    padding: 10px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    display: inline-block;
+    width: 49.78%;
+    text-align: center;
+    vertical-align: top;
+    padding: 1.4em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ccc;
 
     border-radius: 4px;
-    box-shadow: inset 1px 1px 4px #999;
+    box-shadow: 1px 1px 4px #999;
 }
-.painel h2{
 
-    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
-}
-.novidades{
-    background-color: #f5dcdc;
-    float: left;
-    background: linear-gradient(#f5dcdc,#bebef4)
-}
-.maisvendidos{
+.vitrine h2{
     
-    background-color: #dcdcf5;
-    float: right;
-    background: linear-gradient(#dcdcf5,#f4bebe)
-}
-.painel li{
-
-    display: inline-block;
-    vertical-align: top;
-    width: 140px;
-
-    margin: 2px;
-    padding-bottom: 10px;
-}
-.painel h2{
-
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
 
     margin-bottom: 10px;
 }
-.painel a{
 
-    color: #333;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
+.vitrine figcaption{
+
+    
+}
+.vitrine figure{
+
+
+    transform: scale(1);
+    transition: transform 0.5s;
+    display: inline-block;
+    padding: 0.5em;
 }
 
-.painel li:hover{
 
-    background-color: rgba(255,255,255,0.8);
-    box-shadow: 0 0 5px #333;
-    transition: 0.7s;
-    transform: scale(1.2) rotate(-5deg);
+.vitrine figure:hover{
+
+    
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    
 }
 
-.social a{
 
-    height: 32px;
-    width: 32px;
+.vitrine figure:nth-of-type(n+7) {
 
-    display: block;
-    text-indent: -9999px;
+    display: none;
 }
 
-.social a[href *= "facebook.com"]{
-
-        background-image: url(../img/facebook.png);
+.expandido figure:nth-of-type(n+7){
+    
+    display: inline-block;
 }
 
-.social a[href *= "twitter.com"]{
-
-    background-image: url(../img/twitter.png);
+.rodape{
+    padding: 0.3em;
+    background: url("../img/fundo-rodape.png");
+    
 }
 
-.social a[href *= "plus.google.com"]{
-
-    background-image: url(../img/googleplus.png);
-}
-footer{
-
-    padding: 10px 0;
-    clear: both;
-    background-image: url(../img/fundo-rodape.png);
-}
-footer .container{
-
-    position: relative;
-}
 .social{
 
-    position: absolute;
-    top: 1px;
+    float: right;
     right: 0;
-}
-.social li{
+    top:0;
 
-    float: left;
-    margin-left: 15px;
 }
+
+.link-social{
+
+    display: inline-block;
+    background: red;
+    color: transparent;
+    text-indent: -9999999px;
+    width: 32px;
+    height: 32px;
+}
+
+[href *= "face"]{
+
+    background: url("../img/facebook.png");
+}
+
+
+[href *= "twitter"]{
+
+    background: url("../img/twitter.png");
+}
+
+[href *= "google"]{
+
+    background: url("../img/googleplus.png");
+}
+
+.submenu{
+
+    height: 0;
+    overflow: hidden;
+
+}
+li.selecionado .submenu,
+li:hover .submenu{
+
+    height: auto;
+}
+
+@media(max-width: 940px){
+    h1{
+        text-align: center;
+    }
+    
+    .img-destaque{
+        max-width: 100%;
+        float: none;
+    }
+
+    #img{
+
+        width: 100%;
+    }
+    
+    .menu{
+
+        position: static;
+        text-align: center;
+    }
+    .sacola{
+
+        display: none;
+    }
+    .container{
+        
+        width: 90%;
+    }
+
+    h1{
+
+        text-align: center;
+    }
+
+    .vitrine{
+
+        width: 49.4%;
+        box-sizing: border-box;
+
+    }
+
+    .departamentos{
+        
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #busca{
+
+        width: 100%;
+    }
+}
+
+@media(min-width: 496px) and (max-width: 940px){
+
+    .departamentos ul{
+
+        column-count: 2;
+    }
+}
+
+
+@media(min-width: 793px) and (max-width: 940px){
+
+    .vitrine{
+
+        width: 45%;
+    }
+}
+
