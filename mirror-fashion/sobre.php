@@ -68,7 +68,7 @@
             </ul>    
         </p>
 
-        <a id = "acompre" href = "home.html"><h2 id = "Compreja">Compre já em nossa loja!</h2></a>
+        <a id = "acompre" href = "home.php"><h2 id = "Compreja">Compre já em nossa loja!</h2></a>
         <div id = "rodape">
             <img src = "img/logo.png">
             &copy; Copyright Mirror Fashion
