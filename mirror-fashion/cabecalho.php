@@ -1,4 +1,15 @@
-
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <?php print @$reset; ?>
+    <?php print @$cabecalho_css; ?>
+    <?php print @$cabecalho_css_mobile;?>
+    <link rel = "icon" href = "img/shopping-bag.png">
+    <title><?php print $cabecalho_title; ?></title>
+</head>
+<body>
 <header class = "container">
 
         <h1><img src = "img/logo.png" alt = "Mirror Fashion"></h1>
@@ -17,3 +28,5 @@
             </ul>
         </nav>
     </header>
+</body>
+</html>

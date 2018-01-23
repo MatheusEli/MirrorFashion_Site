@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel = "stylesheet" href = "css/estilos-sobre.css">
-    <link rel = "icon" href = "img/shopping-bag.png">
-    <title>Sobre a Mirror Fashion</title>
-</head>
-<body>
-    
     <?php
+        $cabecalho_css = '<link rel = "stylesheet" href = "css/estilos-sobre.css">';
+        $cabecalho_title = "Sobre Mirror Fashion";
         include("cabecalho.php");
     ?>
-    
+
     <h2 id = "titulo">A Mirror Fashion</h2>
     <p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
         Fundada há <?php print date("Y") - 1932; ?> anos, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
@@ -73,6 +64,3 @@
             <img src = "img/logo.png">
             &copy; Copyright Mirror Fashion
         </div>
-        
-</body>
-</html>

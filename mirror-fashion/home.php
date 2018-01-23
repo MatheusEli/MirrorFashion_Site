@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel = "stylesheet" href = "css/reset.css">
-    <link rel = "stylesheet" href = "css/estilos-home.css">
-    <link rel = "stylesheet" href = "css/mobile.css" media = "(max-width: 939px)">
-    <link rel = "icon" href = "img/shopping-bag.png">
-    <title>Mirror Fashion</title>
-</head>
-<body>
-    
+
     <?php 
-        include("cabecalho.php");
+        $reset = '<link rel = "stylesheet" href = "css/reset.css">';
+        $cabecalho_css = '<link rel = "stylesheet" href = "css/estilos-home.css">';
+        $cabecalho_css_mobile = '<link rel = "stylesheet" href = "css/mobile.css" media = "(max-width: 939px)">';
+        $cabecalho_title = "Mirror Fashion";
+        include("cabecalho.php"); 
     ?>
 
     <div class = "container destaque">
@@ -26,9 +18,6 @@
             </form>
         
         </section>
-
-
-        
         <section class = "departamentos">
             
             <h2>Departamentos</h2>
@@ -168,20 +157,4 @@
         </section>
     </div>
 
-    <footer>
-
-        <div class = "container">
-            <img src = "img/logo-rodape.png" alt = "Logo Mirror Fashion">
-            
-            <nav>
-                <ul class = "social">
-                    <li id = "facebook"><a href = "http://facebook.com/mirrorfashion">Facebook</a></li>
-                    <li id = "twitter"><a href = "http://twitter.com/mirrorfashion">Twitter</a></li>
-                    <li id = "google"><a href = "http://plus.google.com/mirrorfashion">Google+</a></li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-
-</body>
-</html>
+    <?php include("rodape.php"); ?>
