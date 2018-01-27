@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel = "stylesheet" href = "css/bootstrap.css">
+    <link rel = "stylesheet" href = "css/bootstrap-flatly.css">
     <link rel = "icon" href = "img/shopping-bag.png">
     <title>Checkout Mirror Fashion</title>
 
@@ -16,25 +16,38 @@
 
         margin: 0;
     }
+    .navbar .glyphicon{
+
+        color: yellow;
+        margin-left: 10px;
+    }
+    body{
+
+        padding-top: 70px;
+    }
+    .navbar-collapse{
+
+        margin-top: 10px;
+    }
 
     </style>
 </head>
 <body>
-<nav class= "navbar navbar-default navbar-static-top">
+<nav class= "navbar navbar-default navbar-fixed-top">
     <div class = "navbar-header">
     <button type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = "#navbar-collapse-id">
         <span class = "icon-bar"></span>
         <span class = "icon-bar"></span>
         <span class = "icon-bar"></span>
     </button>
-    <a class = "navbar-brand" href = "home.php">Mirror Fashion</a>
+    <a class = "navbar-brand" href = "home.php"><img src = "img/logo-rodape.png"></a>
     </div>
         <div class = "collapse navbar-collapse" id = "navbar-collapse-id">
             <ul class = "nav navbar-nav">
-                <li class = "active"><a href = "sobre.php">Sobre</a></li>
-                <li><a href = "#">Ajuda</a></li>
-                <li><a href = "#">Perguntas Frequentes</a></li>
-                <li><a href = "#">Entre em Contato</a></li>
+                <li class = "active"><a href = "sobre.php">Sobre<span class = "glyphicon glyphicon-home"></span></a></li>
+                <li><a href = "#">Ajuda<span class = "glyphicon glyphicon-question-sign"></span></a></li>
+                <li><a href = "#">Perguntas Frequentes<span class = "glyphicon glyphicon-list-alt"></span></a></li>
+                <li><a href = "#">Entre em Contato<span class = "glyphicon glyphicon-bullhorn"></span></a></li>
             </ul>
         </div>
     </nav>
