@@ -22,17 +22,17 @@
             <legend>Escolha a cor:</legend>
             <input type = "radio" name = "cor" value = "verde" id = "verde" checked>
             <label for = "verde">
-                <img src = "img/produtos/foto2-verde.png" alt = "verde">
+                <img src = "img/produtos/foto1-verde.png" alt = "verde">
             </label>
 
             <input type = "radio" name = "cor" value = "rosa" id = "rosa" checked>
             <label for = "rosa">
-                <img src = "img/produtos/foto2-rosa.png" alt = "rosa">
+                <img src = "img/produtos/foto1-rosa.png" alt = "rosa">
             </label>
 
             <input type = "radio" name = "cor" value = "azul" id = "azul" checked>
             <label for = "azul">
-                <img src = "img/produtos/foto2-azul.png" alt = "azul">
+                <img src = "img/produtos/foto1-azul.png" alt = "azul">
             </label>
 
         </fieldset>
